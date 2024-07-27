@@ -1,0 +1,40 @@
+.button {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  line-height: 1.2rem;
+  font-weight: 900;
+  width: 100px;
+  padding: 8px 14px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #fff;
+  height: 36px;
+  transition: all 75ms ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+
+.button.good {
+  background: #007a5a;
+}
+
+.button.neutral {
+  background: #db870a;
+}
+.button.bad {
+  background: #b82916;
+}
+.button.reset {
+  background: #4d4949;
+  position: absolute;
+  top: 44px;
+}
+@media (max-width: 500px) {
+  .button.reset {
+    top: 136px;
+  }
+}
